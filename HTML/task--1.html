@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task one</title>
+</head>
+<body>
+    <h1>Welcome To my Form</h1>
+    <p>My name is Ahmed Hamdy</p>
+    <p>My Hobbies</p>
+    <ol>
+        <li>chess</li>
+        <li>Football
+            <ul>
+                <li>AC Milan</li>
+                <li>Reds</li>
+            </ul>
+        </li>
+    </ol>
+    <h2>Registration Form</h2>
+
+    <form action="">
+        <div>
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" required placeholder="Enter Your First Name" name="fname">
+        </div>
+        <div>
+            <label for="lname">Last Name: </label>
+            <input type="text" id="Lname" required placeholder="Enter Your Last Name" name="lname">
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email" required placeholder="Enter Your First Name" name="email">
+        </div>
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" id="password" required placeholder="Enter your password" minlength="8" maxlength="20" name="password">
+        </div>
+        <div>
+            <label for="cpass">confirm Password: </label>
+            <input type="password" id="cpass" required placeholder="Enter your password" minlength="8" , minlength="20" name="cpassword">
+        </div>
+        <div>
+            <label for="DOB">DOB</label>
+            <input type="date" id="DOB" name="DOB" required>
+        </div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
